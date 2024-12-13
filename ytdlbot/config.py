@@ -42,9 +42,9 @@ ARCHIVE_ID = os.getenv("ARCHIVE_ID")
 ENABLE_FFMPEG = os.getenv("ENABLE_FFMPEG", False)
 AUDIO_FORMAT = os.getenv("AUDIO_FORMAT")
 
-PLAYLIST_SUPPORT = os.getenv("PLAYLIST_SUPPORT", False)
-M3U8_SUPPORT = os.getenv("M3U8_SUPPORT", False)
-ENABLE_ARIA2 = os.getenv("ENABLE_ARIA2", False)
+PLAYLIST_SUPPORT = os.getenv("PLAYLIST_SUPPORT", True)
+M3U8_SUPPORT = os.getenv("M3U8_SUPPORT", True)
+ENABLE_ARIA2 = os.getenv("ENABLE_ARIA2", True)
 
 RCLONE_PATH = os.getenv("RCLONE")
 
